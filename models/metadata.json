@@ -1,0 +1,33 @@
+{
+    "model_architecture": "MobileNetV3-Small",
+    "input_size": [
+        3,
+        224,
+        224
+    ],
+    "classes": [
+        "Mask",
+        "No_Mask"
+    ],
+    "num_classes": 2,
+    "preprocessing": {
+        "mean": [
+            0.485,
+            0.456,
+            0.406
+        ],
+        "std": [
+            0.229,
+            0.224,
+            0.225
+        ]
+    },
+    "training_params": {
+        "epochs": 10,
+        "batch_size": 32,
+        "learning_rate": 0.001,
+        "optimizer": "Adam",
+        "loss_function": "CrossEntropyLoss"
+    },
+    "best_validation_accuracy": 99.74358974358974
+}
