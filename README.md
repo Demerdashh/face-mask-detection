@@ -112,4 +112,3 @@ flowchart LR
 
 ## 👤 Author <a name="author"></a>
 Built with ❤️ by Youssef Ahmed El Demerdash
-During the ARCH Technologies Internship (2025)
